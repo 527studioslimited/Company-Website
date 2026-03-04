@@ -20,16 +20,16 @@ export default function Hero() {
 
           {/* Headline */}
           <h1 className={styles.headline}>
-            Building apps people{" "}
-            <span className="gradient-text">actually love</span>{" "}
-            to use
+            Consumer apps built to{" "}
+            <span className="gradient-text">the highest standard</span>
           </h1>
 
           {/* Sub-headline */}
           <p className={styles.subheadline}>
-            527Studios Limited crafts high-quality consumer applications with
-            robust engineering, exceptional performance, and intuitive design —
-            for iOS and React Native platforms.
+            527Studios Limited is a mobile application development company
+            dedicated to designing and building high-quality consumer
+            applications, with a strong emphasis on robust engineering,
+            performance, and intuitive user experience.
           </p>
 
           {/* CTAs */}

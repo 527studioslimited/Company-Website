@@ -38,8 +38,8 @@ export default function Contact() {
               <span className="gradient-text">great together</span>
             </h2>
             <p className="section-subheading">
-              Whether you have a project in mind or just want to learn more
-              about what we do — we&apos;d love to hear from you.
+              Whether you have a project in mind or would simply like to learn
+              more about what we do, we would be pleased to hear from you.
             </p>
 
             <div className={styles.contactDetails}>
@@ -68,8 +68,8 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className={styles.detailLabel}>Email</p>
-                  <a href="mailto:hello@527studios.co.uk" className={styles.detailLink}>
-                    hello@527studios.co.uk
+                  <a href="mailto:admin@527studios.co.uk" className={styles.detailLink}>
+                    admin@527studios.co.uk
                   </a>
                 </div>
               </div>
@@ -83,7 +83,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className={styles.detailLabel}>Registered in</p>
-                  <p className={styles.detailValue}>England & Wales</p>
+                  <p className={styles.detailValue}>United Kingdom</p>
                 </div>
               </div>
             </div>
@@ -99,8 +99,8 @@ export default function Contact() {
                     <path d="M7 12l3 3 7-7" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
                 </div>
-                <h3>Message sent!</h3>
-                <p>Thanks for reaching out. We&apos;ll get back to you as soon as possible.</p>
+                <h3>Message received</h3>
+                <p>Thank you for getting in touch. A member of the team will respond to your enquiry shortly.</p>
                 <button
                   className="btn btn-secondary"
                   onClick={() => {

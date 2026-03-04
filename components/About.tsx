@@ -9,7 +9,7 @@ const pillars = [
     ),
     title: "Robust Engineering",
     description:
-      "We write clean, maintainable code that scales. Every architectural decision is made with long-term reliability in mind.",
+      "Clean, maintainable code underpins everything we build. Every architectural decision is made with long-term reliability and scalability in mind.",
   },
   {
     icon: (
@@ -19,7 +19,7 @@ const pillars = [
     ),
     title: "Peak Performance",
     description:
-      "Speed and responsiveness are non-negotiable. We optimise every layer of the stack to deliver buttery-smooth experiences.",
+      "Speed and responsiveness are non-negotiable. We optimise every layer of the stack to deliver fluid, high-performance experiences.",
   },
   {
     icon: (
@@ -30,7 +30,7 @@ const pillars = [
     ),
     title: "Intuitive UX",
     description:
-      "Great software disappears into the background. We design interfaces that feel natural and delight users from first launch.",
+      "The best interfaces are invisible. We design interactions that feel immediately natural, reducing friction and engaging users from their very first session.",
   },
   {
     icon: (
@@ -42,7 +42,7 @@ const pillars = [
     ),
     title: "Consumer Focus",
     description:
-      "We build apps for real people. Our consumer-first mindset ensures every product resonates with its intended audience.",
+      "Our primary focus is the end user. A consumer-first mindset shapes every product decision, ensuring each application genuinely resonates with its intended audience.",
   },
 ];
 
@@ -60,15 +60,14 @@ export default function About() {
             </h2>
             <p className="section-subheading">
               527Studios Limited is a mobile application development company
-              based in Mildenhall, Suffolk. We design and build high-quality
-              consumer applications, with a strong emphasis on robust
-              engineering, performance, and intuitive user experience.
+              dedicated to designing and building high-quality consumer
+              applications, with a strong emphasis on robust engineering,
+              performance, and intuitive user experience.
             </p>
             <p className={styles.bodyText}>
-              Our primary focus is developing our own consumer-facing apps using
-              iOS and React Native technologies. We also selectively take on
-              application development projects for other businesses — bringing
-              the same rigorous standards to every engagement.
+              The company primarily focuses on developing its own consumer-facing
+              apps using iOS and React Native technologies, while selectively
+              undertaking application development projects for other businesses.
             </p>
             <div className={styles.location}>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden="true">

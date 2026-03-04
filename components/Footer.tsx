@@ -5,7 +5,6 @@ const currentYear = new Date().getFullYear();
 const navLinks = [
   { href: "#about", label: "About" },
   { href: "#services", label: "Services" },
-  { href: "#process", label: "Process" },
   { href: "#contact", label: "Contact" },
 ];
 
@@ -30,12 +29,14 @@ export default function Footer() {
               <span className={styles.logoText}>Studios</span>
             </a>
             <p className={styles.tagline}>
-              Designing and building high-quality mobile applications with
-              robust engineering and intuitive user experience.
+              527Studios Limited is a mobile application development company
+              dedicated to designing and building high-quality consumer
+              applications, with a strong emphasis on robust engineering,
+              performance, and intuitive user experience.
             </p>
             <p className={styles.company}>
               527Studios Limited<br />
-              Registered in England & Wales
+              Registered in the UK
             </p>
           </div>
 
@@ -61,8 +62,8 @@ export default function Footer() {
               IP28 7DE<br />
               United Kingdom
             </address>
-            <a href="mailto:hello@527studios.co.uk" className={styles.emailLink}>
-              hello@527studios.co.uk
+            <a href="mailto:admin@527studios.co.uk" className={styles.emailLink}>
+              admin@527studios.co.uk
             </a>
           </div>
         </div>
