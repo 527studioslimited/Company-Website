@@ -1,0 +1,129 @@
+.about {
+  background: linear-gradient(
+    180deg,
+    var(--bg-primary) 0%,
+    var(--bg-secondary) 100%
+  );
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  align-items: start;
+}
+
+/* Text column */
+.textCol {
+  position: sticky;
+  top: 100px;
+}
+
+.bodyText {
+  color: var(--text-secondary);
+  line-height: 1.8;
+  margin-top: 16px;
+  margin-bottom: 28px;
+  font-size: 0.95rem;
+}
+
+.location {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 8px;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  line-height: 1.5;
+}
+
+.location svg {
+  color: var(--accent-teal);
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+/* Pillars grid */
+.pillarsGrid {
+  gap: 20px;
+}
+
+.pillar {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 28px;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.pillar::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, var(--glow-teal), transparent);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: inherit;
+}
+
+.pillar:hover {
+  border-color: var(--border-accent);
+  transform: translateY(-4px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+}
+
+.pillar:hover::before {
+  opacity: 1;
+}
+
+.pillarIcon {
+  width: 48px;
+  height: 48px;
+  background: rgba(0, 212, 170, 0.08);
+  border: 1px solid rgba(0, 212, 170, 0.15);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--accent-teal);
+  margin-bottom: 20px;
+  position: relative;
+  transition: all 0.3s ease;
+}
+
+.pillar:hover .pillarIcon {
+  background: rgba(0, 212, 170, 0.15);
+  border-color: var(--accent-teal);
+}
+
+.pillarTitle {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 10px;
+  letter-spacing: -0.01em;
+}
+
+.pillarDesc {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+@media (max-width: 960px) {
+  .layout {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+
+  .textCol {
+    position: static;
+  }
+}
+
+@media (max-width: 480px) {
+  .pillarsGrid {
+    grid-template-columns: 1fr;
+  }
+}
