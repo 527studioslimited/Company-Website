@@ -9,9 +9,8 @@ const navLinks = [
 ];
 
 const legalLinks = [
-  { href: "/privacy", label: "Privacy Policy" },
-  { href: "/terms", label: "Terms of Use" },
-  { href: "/cookies", label: "Cookie Policy" },
+  { href: "/hearth/privacy", label: "Privacy Policy" },
+  { href: "/hearth/terms", label: "Terms of Use" },
 ];
 
 export default function Footer() {
@@ -62,8 +61,8 @@ export default function Footer() {
               IP28 7DE<br />
               United Kingdom
             </address>
-            <a href="mailto:admin@527studios.co.uk" className={styles.emailLink}>
-              admin@527studios.co.uk
+            <a href="mailto:527studioslimited@gmail.com" className={styles.emailLink}>
+              527studioslimited@gmail.com
             </a>
           </div>
         </div>
