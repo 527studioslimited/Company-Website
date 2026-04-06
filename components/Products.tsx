@@ -5,12 +5,18 @@ const products = [
   {
     name: "Hearth",
     tagline: "Cooking made simple",
-    description:
-      "A thoughtfully designed cooking companion that brings clarity and confidence to the kitchen. Hearth simplifies meal planning and recipe discovery with an intuitive interface and a focus on the essentials.",
     platforms: ["iOS"],
-    logoSrc: "/hearth-logo.png",
+    logoSrc: "/app-logos/hearth.png",
     privacyPolicy: "/hearth/privacy",
     termsConditions: "/hearth/terms",
+  },
+  {
+    name: "SocialQuest",
+    tagline: "Level up your social life",
+    platforms: ["iOS"],
+    logoSrc: "/app-logos/socialquest.png",
+    privacyPolicy: "/socialquest/privacy",
+    termsConditions: "/socialquest/terms",
   },
 ];
 
